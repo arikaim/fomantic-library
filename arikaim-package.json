@@ -1,6 +1,6 @@
 {   
     "title": "Fomantic UI",
-    "version": "2.8.4",
+    "version": "2.8.5",
     "name": "fomantic",
     "package-type": "library",
     "repository": "https://github.com/arikaim/fomantic-library.git",
@@ -13,9 +13,7 @@
         }
     },
     "help": "https://fomantic-ui.com/introduction/getting-started.html",
-    "files": [
-        "transition.js",     
-        "transition.css",     
+    "files": [     
         "semantic.min.js",
         "semantic.min.css"         
     ]
