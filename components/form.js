@@ -78,8 +78,7 @@ $.fn.form = function(parameters) {
 
       module      = {
 
-        initialize: function() {
-
+        initialize: function() {         
           // settings grabbed at run time
           module.get.settings();
           if(methodInvoked) {
@@ -569,6 +568,7 @@ $.fn.form = function(parameters) {
             if(!rule.prompt) {
               module.verbose('Using default validation prompt for type', prompt, ruleName);
             }
+        
             return prompt;
           },
           settings: function() {
@@ -1194,6 +1194,7 @@ $.fn.form = function(parameters) {
               module.debug('Form has errors');
               submitting = false;
               module.set.error();
+
               if(!settings.inline) {
                 module.add.errors(formErrors);
               }
@@ -1208,7 +1209,7 @@ $.fn.form = function(parameters) {
           },
 
           // takes a validation object and returns whether field passes validation
-          field: function(field, fieldName, showErrors) {
+          field: function(field, fieldName, showErrors) {       
             showErrors = (showErrors !== undefined)
               ? showErrors
               : true
@@ -1265,7 +1266,7 @@ $.fn.form = function(parameters) {
                 settings.onValid.call($field);
               }
             }
-            else {
+            else {              
               if(showErrors) {
                 formErrors = formErrors.concat(fieldErrors);
                 module.add.prompt(identifier, fieldErrors, true);
