@@ -10812,7 +10812,7 @@ $.fn.dropdown.settings.templates = {
 
 ;(function ($, window, document, undefined) {
 
-'use strict';
+"use strict";
 
 $.isFunction = $.isFunction || function(obj) {
   return typeof obj === "function" && typeof obj.nodeType !== "number";
@@ -15803,7 +15803,7 @@ $.fn.progress.settings = {
 
 ;(function ( $, window, document, undefined ) {
 
-'use strict';
+"use strict";
 
 window = (typeof window != 'undefined' && window.Math == Math)
   ? window
@@ -26246,7 +26246,7 @@ $.api.settings = {
 
 ;(function ($, window, document, undefined) {
 
-'use strict';
+"use strict";
 
 $.isFunction = $.isFunction || function(obj) {
   return typeof obj === "function" && typeof obj.nodeType !== "number";

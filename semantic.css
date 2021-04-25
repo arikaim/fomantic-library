@@ -23728,7 +23728,6 @@ a.ui.inverted.black.header.header.header:hover {
   font-variant: normal;
   text-decoration: inherit;
   text-transform: none;
-  font-display: swap;
 }
 
 i.icon {
@@ -29522,7 +29521,6 @@ i.icon.zoom.out:before {
   font-variant: normal;
   text-decoration: inherit;
   text-transform: none;
-  font-display: swap;
 }
 
 i.icon.outline {
@@ -30150,7 +30148,6 @@ i.icon.window.restore.outline:before {
   font-variant: normal;
   text-decoration: inherit;
   text-transform: none;
-  font-display: swap;
 }
 
 /* Icons */
