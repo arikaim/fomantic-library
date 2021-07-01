@@ -1,6 +1,6 @@
 {   
     "title": "Fomantic UI",
-    "version": "2.8.13",
+    "version": "2.8.14",
     "name": "fomantic",
     "package-type": "library",
     "repository": "https://github.com/arikaim/fomantic-library.git",
@@ -11,7 +11,12 @@
         "semantic.min.js",
         "semantic.min.css"         
     ],
-    "versions": {       
+    "versions": {   
+        "api": {
+            "files": [
+                "components/api.min.js"
+            ]
+        },
         "form": {
             "files": [
                 "components/state.min.js",
