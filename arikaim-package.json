@@ -1,6 +1,6 @@
 {   
     "title": "Fomantic UI",
-    "version": "2.8.17",
+    "version": "2.8.18",
     "name": "fomantic",
     "package-type": "library",
     "repository": "https://github.com/arikaim/fomantic-library.git",
@@ -12,6 +12,12 @@
         "semantic.min.css"         
     ],
     "versions": {   
+        "slider": {
+            "files": [
+                "components/slider.min.css",
+                "components/slider.min.js"
+            ]
+        },
         "calendar": {
             "files": [
                 "components/calendar.min.css",
