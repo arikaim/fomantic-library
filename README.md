@@ -14,5 +14,7 @@ More details about [Fomantic-UI](https://github.com/fomantic/Fomantic-UI)
 #### Installation
 
 ```sh
+
 composer require arikaim/fomantic-library
+
 ```
